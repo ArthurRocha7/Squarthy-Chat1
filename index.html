@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR" style="height: 100%;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="shortcut icon" href="Images/netflix_logo_icon_170919.png" type="image/x-icon">
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        .pag{
+            height: 100%;
+            
+        }
+
+
+        .row-menu{
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            color: #ffff;
+            list-style-type: none;
+            align-items: center;
+            padding-left: 10px;
+            padding-top: 3px;
+        }
+
+        .tam-search{
+            width: 50%;
+            display: flex;
+            justify-content: flex-end;
+            
+            
+        }
+
+        .menus{
+            font-weight: bold;
+        }
+
+        .tam-search div{
+            margin: 20px;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .abas {
+            display: flex;
+        }
+
+        .img-tam{
+            width: 1.4em;
+        }
+
+        .abas .col-items{
+            display: flex;
+            justify-content: end;
+        }
+
+        .search{
+            width: 20em;
+            padding: 0.6em 1.2em;
+            outline: none;
+            background: transparent;
+            color: #ffff;
+            border: 1px solid rgba(0, 0, 0, .5);
+            border-radius: 20px;
+            box-shadow: 1px 5px 5px black;
+        }
+
+        .netflix-icon{
+            width: 110px;
+            padding-left: 10px;
+            
+        }
+        .img-netflix{
+            margin-left: 20px;
+            margin-top: 10px;
+            flex: 1;
+        }
+
+        .div-search .search-movies::placeholder{
+            font-weight: 600;
+        }
+
+        .div-search > .search{
+            width: 20em;
+            padding: 0.6em 1.2em;
+            outline: none;
+            background: transparent;
+            color: #fff;
+            border: 1px solid rgba(0, 0, 0, .5);
+            border-radius: 20px;
+            box-shadow: 1px 5px 5px black;
+            font-weight: 600;
+        }
+
+        .div-search .search > option{
+            background-color: black;
+            color: #ffff;
+            font-weight: 600;
+        }
+        .Conteudo{
+            background: url(Images/Avatar_-The-Last-Airbender-Live-Action-Netflix.webp);
+            width: 100%;
+            height: 75%;
+        }
+
+        .icon-netflix-pri{
+            width: 50px;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        .conteudo-pri{
+            display: flex;
+
+        }
+
+        .img-titulo{
+            margin-top: 80px;
+            margin-left: -47px;
+            
+        }
+
+        .titulo{
+            margin-left: 20px;
+            color: #fff;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 30px;
+        }
+
+        .ind{
+            margin-left: 20px;
+        }
+
+        .ind > span{
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .desc{
+            margin-left: 20px;
+            font-weight: 500;
+            color: #fff;
+            line-height: 22px;
+            font-size: 16px;
+        }
+
+        .estr{
+            margin-left: 20px;
+            color: rgb(39, 36, 36);
+            font-weight: 600;
+        }
+
+    </style>
+    <title>Netflix</title>
+</head>
+<body>
+    <main class="pag">
+        <section class="menu-superior">
+            <div class="abas">
+                <div class="img-netflix">
+                    <img src="Images/Netflix-Logo.png" alt="" class="netflix-icon">
+                </div>
+                <ul class="row-menu">
+                    <li class="menus">Inicio</li>
+                    <li class="menus">Séries</li>
+                    <li class="menus">Filmes</li>
+                    <li class="menus">Top 10</li>
+                    <li class="menus">Lançamentos</li>
+                </ul>
+                <div class="tam-search">
+                    <div class="div-search">
+                        <input type="text" name="" class="search-movies abas search" placeholder="Proucurar por filmes ou series">
+                    </div>
+
+                    <div class="div-search">
+                        <select name="" class="search">
+                            <option value="">Mais recentes</option>
+                            <option value="">Mais relevantes</option>
+                            <option value="">Melhores notas</option>
+                            <option value="">A-Z</option>
+                            <option value="">Z-A</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="Conteudo">
+            <div class="conteudo-pri" >
+                <div class="img-top10">
+                    <img src="Images/top10.png" alt="" class="icon-netflix-pri" >
+                </div>
+                <div class="img-titulo">
+                    <img src="Images/AAAABRwT6zbBuM4KMTamc4Y9R_Ioe-36hTrZHtNHMPBb9VUrvWWKkbzT_a-BN9jAKElt_g4mpE9AHrUTJBVerslFQr_RI5jr1sp6lejO5L7eB-fXpFEMb2OZD-KdywPx5HlkZmwdn7N5ZZ7Y0E0WwpoElMQp0aRZvNqATB-wiH1L_AdQKQV4DgmmpA.png" alt="" style="display: block;
+                    width: 450px; height: 100px; ">
+                </div>
+            </div>
+            <div class="exp-conteudo">
+                <h1 class="titulo">Avatar: O Último Mestre do Ar</h1>
+                <div class="ind">
+                    <span>2024</span>
+                    <span> | </span>
+                    <span>12 Anos</span>
+                    <span> | </span>
+                    <span>1 temporada</span>
+                    <span> | </span>
+                    <span>Fantasia/Ação</span>
+                </div>
+                <div class="desc">
+                    <p>Um garoto conhecido como o Avatar precisa dominar os quatro <br> poderes elementares para salvar um mundo em guerra e enfrentar um <br> inimigo implacável.</p>
+                </div>
+                <div class="estr">
+                    <p>Estrelando:Gordon Cormier,Kiawentiio,Ian Ousley</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
